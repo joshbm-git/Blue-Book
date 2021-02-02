@@ -4,13 +4,26 @@
     box-sizing: border-box;
 }
 
-
-.carousel {
-    width: 50%;
-    margin: 0 auto;
+.nav {
+    position: fixed;
+    height: 5vh;
+    width: 100%;
+    background-color: black;
 }
 
-.carousel img {
-    height: 75vh;
-    object-fit: cover;
+a {
+    text-decoration: none;
+    color: white;
+}
+
+article {
+    height: 95vh;
+    padding-top: 5vh;
+}
+
+
+
+
+.description {
+    padding: 1em;
 }

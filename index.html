@@ -1,85 +1,138 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-<link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css">
 
     <title>Hello, world!</title>
-  </head>
-  <body>
-<header></header>
+</head>
 
-<main>
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <ol class="carousel-indicators">
-          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/oskar_portrait" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Full Name</h5>
-              <p>Age</p>
-              <p>Previous Education</p>
-              <p>Address</p>
-              <p>Siblings</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/baruani_portrait" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/nikolaj_portrait" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            </div>
-          </div>
+<body>
+    <header>
+        <ul class="nav justify-content-end align-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="#oskar">Oskar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#baruani">Baruani</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#nikolaj">Nikolaj</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#joshua">Joshua</a>
+            </li>
+        </ul>
+    </header>
 
-          <div class="carousel-item">
-            <img src="img/baruani_portrait" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            </div>
-          </div>
+    <main>
+        <article id="oskar" class="d-flex">
+            <section class="w-50">
+                <figure>
+                    <img class="w-100" src="img/oskar_portrait" alt="">
+                </figure>
+            </section>
 
-          <div class="carousel-item">
-            <img src="img/baruani_portrait" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            </div>
-          </div>
-        </div>
+            <section class="w-50 description">
+                <h2>Full name:</h2>
+                <p>Age:</p>
+                <p>Previous Education:</p>
+                <p>Current background image:</p>
+                <p>Address:</p>
+                <p>Siblings:</p>
+                <p>What can you do today that you were not capable of a year ago?</p>
+                <p>If you had not chosen to study web development – what would you then have chosen?</p>
+                <p>Why did you choose to study web development?</p>
+                <p>If you got a gift certificate for 5.000 kr. And it had to be used today, but you could choose any
+                    shop to use it in. What shop would you choose and what would you buy?</p>
+                <p>What is your definition of being wealthy and why? </p>
+            </section>
+        </article>
 
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </a>
-      </div>
-</main>
+        <article id="baruani" class="d-flex">
+            <section class="w-50">
+                <figure>
+                    <img class="w-100" src="img/baruani_portrait" alt="">
+                </figure>
+            </section>
 
-<footer></footer>
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+            <section class="w-50 description">
+                <h2>Full name:</h2>
+                <p>Age:</p>
+                <p>Previous Education:</p>
+                <p>Current background image:</p>
+                <p>Address:</p>
+                <p>Siblings:</p>
+                <p>What can you do today that you were not capable of a year ago?</p>
+                <p>If you had not chosen to study web development – what would you then have chosen?</p>
+                <p>Why did you choose to study web development?</p>
+                <p>If you got a gift certificate for 5.000 kr. And it had to be used today, but you could choose any
+                    shop to use it in. What shop would you choose and what would you buy?</p>
+                <p>What is your definition of being wealthy and why? </p>
+            </section>
+        </article>
 
-  </body>
+        <article id="nikolaj" class="d-flex">
+            <section class="w-50">
+                <figure>
+                    <img class="w-100" src="img/nikolaj_portrait" alt="">
+                </figure>
+            </section>
+
+            <section class="w-50 description">
+                <h2>Full name:</h2>
+                <p>Age:</p>
+                <p>Previous Education:</p>
+                <p>Current background image:</p>
+                <p>Address:</p>
+                <p>Siblings:</p>
+                <p>What can you do today that you were not capable of a year ago?</p>
+                <p>If you had not chosen to study web development – what would you then have chosen?</p>
+                <p>Why did you choose to study web development?</p>
+                <p>If you got a gift certificate for 5.000 kr. And it had to be used today, but you could choose any
+                    shop to use it in. What shop would you choose and what would you buy?</p>
+                <p>What is your definition of being wealthy and why? </p>
+            </section>
+        </article>
+
+        <article id="joshua" class="d-flex">
+            <section class="w-50">
+                <figure>
+                    <img class="w-100" src="img/joshua_portrait" alt="">
+                </figure>
+            </section>
+
+            <section class="w-50 description">
+                <h2>Full name:</h2>
+                <p>Age:</p>
+                <p>Previous Education:</p>
+                <p>Current background image:</p>
+                <p>Address:</p>
+                <p>Siblings:</p>
+                <p>What can you do today that you were not capable of a year ago?</p>
+                <p>If you had not chosen to study web development – what would you then have chosen?</p>
+                <p>Why did you choose to study web development?</p>
+                <p>If you got a gift certificate for 5.000 kr. And it had to be used today, but you could choose any
+                    shop to use it in. What shop would you choose and what would you buy?</p>
+                <p>What is your definition of being wealthy and why? </p>
+            </section>
+        </article>
+    </main>
+
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+
+</body>
+
 </html>
