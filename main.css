@@ -23,6 +23,12 @@ article {
 
 figure {
     padding: 1em;
+
+}
+
+img {
+    object-fit: contain;
+    height: 750px;
 }
 
 .description {
