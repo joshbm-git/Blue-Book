@@ -21,9 +21,8 @@ article {
     padding-top: 5vh;
 }
 
-img {
-    height: 95vh;
-    object-fit: contain;
+figure {
+    padding: 1em;
 }
 
 .description {
